@@ -36,7 +36,7 @@ class Videojuego(db.Model):
         }
     
     def __repr__(self):
-        return f'<Task {self.name}>'
+        return f'<Task {self.titulo}>'
 
 @app.route('/videojuegos', methods=['POST'])
 def add():
